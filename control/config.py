@@ -6,7 +6,7 @@ class Config(object):
     """工程配置信息"""
     SECRET_KEY = "EjpNVSNQTyGi1VvWECj9TvC/+kq3oujee2kTfQUs8yCM6xX9Yjq52v54g+HVoknA"
 
-    DEBUG = False
+    DEBUG = True
 
     # 数据库的配置信息
     SQLALCHEMY_DATABASE_URI = "mysql://root:root@127.0.0.1:3306/py_control"
