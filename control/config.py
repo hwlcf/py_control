@@ -34,6 +34,9 @@ class ProductionConfig(Config):
     """生产模式下的配置"""
     # 默认日志等级
     LOG_LEVEL = logging.ERROR
+    # 数据库的配置信息
+    SQLALCHEMY_DATABASE_URI = "mysql://root:@Huang1026@localhost:3306/py_control"
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
 
 
 config = {
